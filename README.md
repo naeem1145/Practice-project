@@ -1,2 +1,4 @@
 # Practice-project-
-All of my Practice project  here . 
+Language use : HTML, CSS , JS 
+Learning : CSS grid & flex 
+           make a website responsive 
