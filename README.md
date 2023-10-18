@@ -4,5 +4,5 @@ Language use : HTML, CSS , JS
 
 
 
-Learning : CSS grid & flex 
-           make a website responsive 
+Learning : * CSS grid & flex 
+           * make a website responsive 
