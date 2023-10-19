@@ -1,0 +1,17 @@
+.sectionOne{
+    display: grid;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sectionOne__content--text {
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+.sectionOne__btn{
+    display: grid;
+    justify-self: center;
+}
+
