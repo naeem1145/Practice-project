@@ -114,3 +114,43 @@
 .sectionFive__btn {
     justify-self: center;
 }
+
+
+@media (max-width: 1200px) {
+
+    .sectionTwo__logo{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+      }
+      .common-title {
+        font-size: var(--h2);
+      }
+      
+}
+@media (max-width: 1024px) {
+     .common-title {
+        font-size: var(--h4);
+      }
+}
+
+
+@media (max-width: 768px) {
+    .sectionOne__left {
+        order : 1;
+    }
+    .sectionOne__right {
+        order: 0;
+    }
+    .sectionFive__cards{
+        grid-template-columns: repeat(2, 1fr) ;
+    }
+}
+
+@media (max-width: 576px) {
+    .sectionTwo__logo {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    .sectionFive__cards{
+        grid-template-columns: repeat(1, 1fr) ;
+    }
+}
