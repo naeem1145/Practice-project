@@ -3,6 +3,11 @@ body {
     min-height: 100vh;
 }
 
+.sectionOne {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
 .hero {
     align-self: self-start;
 }
@@ -10,6 +15,7 @@ body {
 .footerWrapper{
     align-self: self-end;
 }
+
 
 .sectionOne__content--text{
     font-family: var(--font-2);
@@ -60,4 +66,33 @@ body {
 .info {
     color: var(--color-dark-75);
   }
-  
+.bi-check2  {
+    color: var(--color-green-75);
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+
+@media (max-width: 1024px) {
+    .sectionOne__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionOne__cards {
+        grid-template-columns: repeat(1, 0.7fr);
+        justify-content: center;
+    }
+}
+
+@media (max-width: 568px) {
+    .sectionOne__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
